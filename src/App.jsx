@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import vid from '../src/assets/vid.mp4'
+import homepage from '../public/homepage.png';import abstract from '../public/abstract.png';import aiworks from '../public/aiworks.png';import blackbg from '../public/blackbg.png';import blue from '../public/blue.png';
+import davinci from '../public/davinci.png';import greenwhite from '../public/greenwhite.png';
+import impactartists from '../public/impactartists.png';
+import iota from '../public/iota.png';
 
 function App() {
   
@@ -21,14 +25,13 @@ function App() {
 
     <div id='homepage'>
       <div id='homepage-desc-1'>
-        <p>A PRODUCTIZED SERVICE FOR FAST-PACED BRANDS TO LAUNCH A DIGITAL IDENTITY THROUGH WEB SERVICES.
-          SUBSCRIBE.PAUSE. ANYTIME
+        <p>E
         </p>
       <button>SUBSCRIBE</button>
       </div>
       
 
-      <img height="600px" id="homepage-image" src="/public/homepage.png"></img>
+      <img height="600px" id="homepage-image" src={homepage}></img>
 
       <div id="homepage-desc-2">
         <p>DESIGN AS A SERVICE IKAIVA IS A CREATIVE STUDIO HELPING BRANDS PRESENT THEMSELVES IN THE BEST POSSIBLE WAY.</p>
@@ -57,7 +60,7 @@ function App() {
       <p id="about-desc">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence.</p>
 
       <div id="about-image">
-        <img src='/public/blackbg.png' height="600px"></img>
+        <img src={blackbg} height="600px"></img>
       </div>
 
       <div id="about-desc-right">
@@ -80,7 +83,7 @@ function App() {
       
       <div id="know-more">
         <div>
-        <img src='/public/green-white.png' height="500px"></img>
+        <img src={greenwhite} height="500px"></img>
       </div>
 
       <div id="know-more-text">
@@ -109,7 +112,7 @@ function App() {
 
     <div id="features-container">
       <div>
-        <img src='/public/abstract.png' height="500px"></img>
+        <img src={abstract} height="500px"></img>
       </div>
 
       <div id="features">
@@ -146,19 +149,19 @@ function App() {
       <h2>Work</h2>
       <div>
         <div>
-          <img height="400px"  src="/public/images/impactartists.png"></img>
+          <img height="400px"  src={impactartists}></img>
         </div>
 
         <div>
-          <img height="365px"  src="/public/davinci.png"></img>
+          <img height="365px"  src={davinci}></img>
         </div>
 
         <div>
-          <img height="400px" src="/public/iota.png"></img>
+          <img height="400px" src={iota}></img>
         </div>
         
         <div>
-          <img height="325px"  src="/public/aiworks.png"></img>
+          <img height="325px"  src={aiworks}></img>
         </div>
         
       </div>
@@ -167,7 +170,7 @@ function App() {
     <div>
       <div id="membership-header">
         <h2>Join ikaiva-membership</h2>
-      <img  src="/public/blue.png" height="120px" width="500px" id="pic"></img>
+      <img  src={blue} height="120px" width="500px" id="pic"></img>
 
       </div>
       
