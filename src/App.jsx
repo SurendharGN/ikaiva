@@ -25,7 +25,7 @@ function App() {
 
     <div id='homepage'>
       <div id='homepage-desc-1'>
-        <p>E
+        <p> A PRODUCTIZED SERVICE FOR FAST-PACED BRANDS TO LAUNCH A DIGITAL IDENTITY THROUGH WEB SERVICES.
         </p>
       <button>SUBSCRIBE</button>
       </div>
