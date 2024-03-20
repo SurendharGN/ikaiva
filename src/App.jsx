@@ -28,7 +28,7 @@ function App() {
       </div>
       
 
-      <img height="600px" id="homepage-image" src="/public/static/images/homepage.png"></img>
+      <img height="600px" id="homepage-image" src="/public/homepage.png"></img>
 
       <div id="homepage-desc-2">
         <p>DESIGN AS A SERVICE IKAIVA IS A CREATIVE STUDIO HELPING BRANDS PRESENT THEMSELVES IN THE BEST POSSIBLE WAY.</p>
@@ -57,7 +57,7 @@ function App() {
       <p id="about-desc">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence.</p>
 
       <div id="about-image">
-        <img src='/public/images/blackbg.png' height="600px"></img>
+        <img src='/public/blackbg.png' height="600px"></img>
       </div>
 
       <div id="about-desc-right">
@@ -80,7 +80,7 @@ function App() {
       
       <div id="know-more">
         <div>
-        <img src='/public/images/green-white.png' height="500px"></img>
+        <img src='/public/green-white.png' height="500px"></img>
       </div>
 
       <div id="know-more-text">
@@ -109,7 +109,7 @@ function App() {
 
     <div id="features-container">
       <div>
-        <img src='/public/images/abstract.png' height="500px"></img>
+        <img src='/public/abstract.png' height="500px"></img>
       </div>
 
       <div id="features">
@@ -150,15 +150,15 @@ function App() {
         </div>
 
         <div>
-          <img height="365px"  src="/public/images/davinci.png"></img>
+          <img height="365px"  src="/public/davinci.png"></img>
         </div>
 
         <div>
-          <img height="400px" src="/public/images/iota.png"></img>
+          <img height="400px" src="/public/iota.png"></img>
         </div>
         
         <div>
-          <img height="325px"  src="/public/images/aiworks.png"></img>
+          <img height="325px"  src="/public/aiworks.png"></img>
         </div>
         
       </div>
@@ -167,7 +167,7 @@ function App() {
     <div>
       <div id="membership-header">
         <h2>Join ikaiva-membership</h2>
-      <img  src="/public/images/blue.png" height="120px" width="500px" id="pic"></img>
+      <img  src="/public/blue.png" height="120px" width="500px" id="pic"></img>
 
       </div>
       
