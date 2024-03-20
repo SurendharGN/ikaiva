@@ -1,0 +1,181 @@
+@font-face {
+  font-family:Rotterburg;
+  src: url('../public/fonts/Rotterburg.otf') format("opentype");
+}
+@font-face {
+  font-family: sans-italic;
+  src: url('../public/fonts/GeneralSans-Italic.otf');
+}
+@font-face {
+  font-family: sans-med;
+  src: url('../public/fonts/GeneralSans-Medium.otf');
+}
+@font-face {
+  font-family: sans;
+  src: url('../public/fonts/GeneralSans-Regular.otf');
+}
+
+@font-face {
+  font-family: sf;
+  src: url('../public//fonts/sf-med.ttf');
+}
+main{
+  background-color: "f7f7f7";
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+#features {
+  display: flex;
+  
+}
+#workflow {
+  width: 20rem;
+}
+#feature {
+  width: 24rem;
+}
+
+#features-container {
+  display:flex;
+  justify-content: space-between;
+}
+#title {
+  font-weight: 300;
+  font-size: 10rem;
+  font-family: Rotterburg;
+  margin:0;
+}
+
+h3 {
+  font-family: sans;
+
+}
+
+li {
+  list-style-type: none;
+
+}
+#video {
+  border-radius: 10px;
+  padding-right: 1% ;
+
+}
+#desc{
+  font-family: Rotterburg;
+  font-size: 32px;
+  width:30rem;
+  margin:0
+}
+
+p, li {
+  font-family: sans;
+  font-size:24px;
+}
+#crafting-web-applications {
+  font-size: 80px;
+}
+button {
+  border: 1px solid black;
+  border-radius: 36px;
+  background-color: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  height:2.5rem;
+  width:10rem;
+  font-size: 24px;
+  font-family: sans;
+}
+
+#homepage {
+  display: flex;
+  margin-bottom: 48px;;
+}
+
+#homepage-desc-1 {
+  width:16rem;
+  margin-right: 3rem;
+}
+#homepage-image {
+  margin-left:32px;
+}
+#homepage-desc-2 {
+  width: 16rem;
+  margin-left: 10rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-family: rotterburg;
+  font-size: 80px;
+  font-weight:300;
+  margin-top:32px;
+  margin-bottom:32px;
+}
+
+#video {
+  margin-bottom: 32px;
+}
+
+#about-desc {
+  width:20rem;
+}
+
+#about {
+  display: flex;
+  gap:6rem;
+  margin-bottom:5rem;
+}
+
+.about-desc-1 {
+  font-size: 10rem;
+  margin:0;
+
+
+}
+#about-desc-right {
+  align-self: flex-end;
+  margin-left:5rem
+}
+#about-image {
+  margin-left:2rem;
+}
+
+#about-project {
+  margin-top: -10px
+}
+#about-experience {
+  margin-top: -10px
+}
+
+#know-more {
+  display: flex;
+  justify-content: space-between;
+}
+#know-more-text {
+  margin-top:-20px;
+  display: flex;
+  width:32rem;
+  gap:5rem;
+  
+}
+
+ul{
+  padding:0
+}
+
+#price {
+  font-size:98px;
+  margin:0;
+}
+
+#membership-header {
+  display: flex;
+  align-items: flex-end;
+  gap:24px;
+  
+}
