@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import vid from '../src/assets/vid.mp4'
 import homepage from '../public/homepage.png';import abstract from '../public/abstract.png';import aiworks from '../public/aiworks.png';import blackbg from '../public/blackbg.png';import blue from '../public/blue.png';
-import davinci from '../public/davinci.png';import greenwhite from '../public/greenwhite.png';
+import davinci from '../public/davinci.png';import greenwhite from '../public/green-white.png';
 import impactartists from '../public/impactartists.png';
 import iota from '../public/iota.png';
 
