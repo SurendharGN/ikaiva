@@ -37,7 +37,7 @@ function App() {
       <img id="homepage-image" width="600px" height="400px" src={homepage}>
       </img>
 
-      <div>
+      <div id="homepage-description">
         <p>A productized service for fast-paced brands to launch a digital identity through web services.</p>
         <button>Subscribe</button>
       </div>

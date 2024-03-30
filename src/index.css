@@ -81,7 +81,9 @@ button {
   background: none;
   cursor: pointer;
   margin: 0;
-  padding: 0;
+  padding: 8px;
+  display:flex;
+  align-items: center;
   height:2.5rem;
   width:10rem;
   font-size: 24px;
@@ -180,7 +182,6 @@ span {
 #navbar {
   display: flex;
   gap:64px;
-  padding-top:10px;
   position:sticky;
   top:0;
 }
@@ -191,7 +192,7 @@ span {
   justify-content: center;
   width:78rem;
   border-bottom: 1px solid black;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 
 }
 
@@ -200,10 +201,23 @@ span {
   flex-direction: column;
   z-index: 1;
 
+
 }
 
 #homepage-image {
-  padding-left: 20rem;
+  padding-left: 21rem;
   transform: translateY(-9rem);
   z-index: -1;
+}
+
+#homepage-description {
+  display:flex;
+  align-items: center;
+  width:42rem;
+  margin-left:44rem;
+  transform: translateY(-9rem)
+}
+
+#homepage-desc-2 {
+  margin-top:-32px;
 }
