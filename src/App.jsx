@@ -1,11 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import vid from '../src/assets/vid.mp4'
-import homepage from '../public/homepage.png';import abstract from '../public/abstract.png';import aiworks from '../public/aiworks.png';import blackbg from '../public/blackbg.png';import blue from '../public/blue.png';
-import davinci from '../public/davinci.png';import greenwhite from '../public/green-white.png';
-import impactartists from '../public/impactartists.png';
-import iota from '../public/iota.png';
+import logo from '../public/logo.png'
+
 
 function App() {
   
@@ -13,10 +10,15 @@ function App() {
   return (
     <main>
     <div>
-      <p id="logo">i-Ka</p>
       <navbar>
-        
-        {/* <img height="600px" width="" src="../src/assets/homepage.png"></img> */}
+        <ul>
+          <li>Work</li>
+          <li>Services</li>
+          <li>Pricing</li>
+          <li>FAQs</li>
+          <li>Contact</li>
+        </ul>
+        <img id="logo" height="150px" src={logo}></img>
       </navbar>
     </div>
 
@@ -24,43 +26,50 @@ function App() {
       
 
     <div id='homepage'>
-      <div id='homepage-desc-1'>
-        <p> A PRODUCTIZED SERVICE FOR FAST-PACED BRANDS TO LAUNCH A DIGITAL IDENTITY THROUGH WEB SERVICES.
-        </p>
-      <button>SUBSCRIBE</button>
-      </div>
-      
-
-      <img height="600px" id="homepage-image" src={homepage}></img>
-
-      <div id="homepage-desc-2">
-        <p>DESIGN AS A SERVICE IKAIVA IS A CREATIVE STUDIO HELPING BRANDS PRESENT THEMSELVES IN THE BEST POSSIBLE WAY.</p>
+      <div id="desc">
+        <div id="homepage-desc-2">
         <h1 id="title">ikaiva</h1>
         <p id="desc">A CREATIVE STUDIO BASED IN INDIA</p>
+        
       </div>
+      {/* <div id='homepage-desc-1'>
+        <p> A PRODUCTIZED SERVICE FOR FAST-PACED BRANDS TO LAUNCH A DIGITAL IDENTITY THROUGH WEB SERVICES. 
+        </p>
+      
+      </div> */}
+      </div>
+      
+      
+
+      
+
+      
     </div>
 
       
+    </div>
+
+    <div>
+      <p>
+        ikaiva creative studio helps brands establish an online presence through visual branding. 
+      </p>
+      <p id="about-desc">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence.</p>
     </div>
  
     
+<button>SUBSCRIBE</button>
 
-
-    <div id="video">
-      <video id="video" loop autoPlay muted height="600px" width="1392px"  >
-          <source src={vid} type='video/mp4' ></source>
-        </video>
-    </div>
+    
 
     
     <h2>About</h2>
     <div id="about">
       
       {/* <img src="./src/assets/about-2.png" id="pic"></img> */}
-      <p id="about-desc">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence.</p>
+      
 
       <div id="about-image">
-        <img src={blackbg} height="600px"></img>
+        
       </div>
 
       <div id="about-desc-right">
@@ -83,7 +92,7 @@ function App() {
       
       <div id="know-more">
         <div>
-        <img src={greenwhite} height="500px"></img>
+        
       </div>
 
       <div id="know-more-text">
@@ -112,7 +121,7 @@ function App() {
 
     <div id="features-container">
       <div>
-        <img src={abstract} height="500px"></img>
+        
       </div>
 
       <div id="features">
@@ -145,33 +154,16 @@ function App() {
       
     </div>
 
-    <div>
+    
       <h2>Work</h2>
       <div>
-        <div>
-          <img height="400px"  src={impactartists}></img>
-        </div>
-
-        <div>
-          <img height="365px"  src={davinci}></img>
-        </div>
-
-        <div>
-          <img height="400px" src={iota}></img>
-        </div>
         
-        <div>
-          <img height="325px"  src={aiworks}></img>
-        </div>
-        
-      </div>
     </div>
 
     <div>
       <div id="membership-header">
         <h2>Join ikaiva-membership</h2>
-      <img  src={blue} height="120px" width="500px" id="pic"></img>
-
+      
       </div>
       
       <div>
