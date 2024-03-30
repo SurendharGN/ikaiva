@@ -2,24 +2,25 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import logo from '../public/logo.png'
-
+import homepage from "../public/homepage.png"
 
 function App() {
   
 
   return (
     <main>
-    <div>
+    <div id="navbar">
       <navbar>
-        <ul>
+        <ul id="navbar-items">
           <li>Work</li>
           <li>Services</li>
           <li>Pricing</li>
           <li>FAQs</li>
           <li>Contact</li>
         </ul>
-        <img id="logo" height="150px" src={logo}></img>
+        
       </navbar>
+      <img id="logo" height="150px" src={logo}></img>
     </div>
 
     <div>
@@ -32,11 +33,15 @@ function App() {
         <p id="desc">A CREATIVE STUDIO BASED IN INDIA</p>
         
       </div>
-      {/* <div id='homepage-desc-1'>
-        <p> A PRODUCTIZED SERVICE FOR FAST-PACED BRANDS TO LAUNCH A DIGITAL IDENTITY THROUGH WEB SERVICES. 
-        </p>
+
+      <img id="homepage-image" width="600px" height="400px" src={homepage}>
+      </img>
+
+      <div>
+        <p>A productized service for fast-paced brands to launch a digital identity through web services.</p>
+        <button>Subscribe</button>
+      </div>
       
-      </div> */}
       </div>
       
       

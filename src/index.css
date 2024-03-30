@@ -63,7 +63,7 @@ li {
 }
 #desc{
   font-family: rotterburg;
-  font-size: 28px;
+  font-size: 24px;
   margin:0
 }
 
@@ -88,9 +88,7 @@ button {
   font-family: sans;
 }
 
-#homepage {
 
-}
 
 
 
@@ -107,9 +105,7 @@ h2 {
   margin-bottom: 32px;
 }
 
-#about-desc {
-  width:20rem;
-}
+
 
 #about {
   display: flex;
@@ -166,15 +162,7 @@ ul{
   
 }
 
-#hero-section {
-  height:450px;
-  border:1px solid black;
-  display: flex;
-  align-items: center;
-  padding-left: 24px;
-  padding-right:24px;
-  gap:24px;
-}
+
 #building-brands-through-art {
   font-size: 100px;
 }
@@ -188,9 +176,34 @@ span {
   
 }
 
-#desc {
-  display: flex;
-  justify-content: space-between;
-  gap:48px;
 
+#navbar {
+  display: flex;
+  gap:64px;
+  padding-top:10px;
+  position:sticky;
+  top:0;
+}
+
+#navbar-items {
+  display:flex;
+  gap:60px;
+  justify-content: center;
+  width:78rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 32px;
+
+}
+
+#desc {
+  display:flex;
+  flex-direction: column;
+  z-index: 1;
+
+}
+
+#homepage-image {
+  padding-left: 20rem;
+  transform: translateY(-9rem);
+  z-index: -1;
 }
