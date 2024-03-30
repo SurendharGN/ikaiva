@@ -49,6 +49,9 @@ main{
 
 h3 {
   font-family: sans;
+  font-size: 24px;
+  font-weight:300;
+  text-decoration: underline; 
 
 }
 
@@ -91,29 +94,18 @@ button {
 }
 
 
-
-
-
-
 h2 {
   font-family: rotterburg;
-  font-size: 80px;
+  font-size: 48px;
   font-weight:300;
-  margin-top:32px;
-  margin-bottom:32px;
-}
-
-#video {
-  margin-bottom: 32px;
 }
 
 
 
-#about {
-  display: flex;
-  gap:6rem;
-  margin-bottom:5rem;
-}
+
+
+
+
 
 .about-desc-1 {
   font-size: 10rem;
@@ -153,8 +145,9 @@ ul{
 }
 
 #price {
-  font-size:98px;
+  font-size:7rem;
   margin:0;
+  color: #4E5651;
 }
 
 #membership-header {
@@ -166,7 +159,7 @@ ul{
 
 
 #building-brands-through-art {
-  font-size: 100px;
+  font-size: 6rem;
 }
 #hero-image {
   height: 400px;
@@ -200,6 +193,7 @@ span {
   display:flex;
   flex-direction: column;
   z-index: 1;
+  color:#434B46;
 
 
 }
@@ -220,4 +214,231 @@ span {
 
 #homepage-desc-2 {
   margin-top:-32px;
+}
+
+#about-desc {
+  display: flex;
+  margin-top:6rem;
+  margin-bottom:8rem;
+  
+}
+
+#about-para {
+  width:56rem;
+  
+  transform: translate(8rem, 4rem);
+}
+
+#about {
+  margin-top: -8rem;
+  margin-bottom:10rem;
+}
+
+#map {
+  opacity: 7%;
+}
+
+#building-brands-through-art {
+  width:48rem;
+  font-size: 5rem;
+  transform: translate(22rem, 18rem);
+}
+
+#brands-through-art {
+  margin-top:-16rem
+}
+
+#crafting {
+  width: 66rem;
+  margin-top:8rem;
+}
+
+#experience {
+  display: flex;
+  gap: 4rem;
+  border:1px solid #4E5651;;
+  padding-left:6rem;
+  width:48rem;
+  height:18rem;
+  border-radius: 200px;
+  margin-top:4rem;
+  margin-bottom:8rem;
+
+
+}
+
+#greenline {
+  transform: translateY(12rem);
+}
+
+#exp-1-head {
+  font-size: 12rem;
+  margin: 0;
+  padding: 0;
+  font-family: rotterburg;
+  color: #4E5651;
+}
+#exp-2-head {
+  font-size: 12rem;
+  margin: 0;
+  padding: 0;
+  font-family: rotterburg;
+  color:#4E5651;
+}
+
+#exp-1-txt {
+  font-size: 2rem;
+  margin: 0;
+  font-family: rotterburg;
+  color: #4E5651;
+}
+
+#exp-2-txt {
+  font-size: 2rem;
+  margin: 0;
+  color: #4E5651;
+  font-family: rotterburg;
+}
+
+#crafting-web {
+  display:flex;
+  gap:4rem;
+
+
+}
+
+#crafting-web-desc {
+  font-size:24px;
+}
+
+.desc-title {
+  border: 1px solid;
+  border-radius: 32px;
+  width:fit-content;
+  padding:2px 10px 2px 10px;
+
+}
+
+#reviews {
+  margin-bottom:8rem;
+
+}
+
+#membership-benefits-desc {
+  display: flex;
+  gap:4rem;
+
+}
+
+.mem-child {
+  width: 24rem;
+}
+
+#mem-main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom:8rem;
+}
+
+#schedule {
+  border:none;
+  text-decoration: underline;
+  
+}
+
+#mem-details{ 
+  display: flex;
+  gap:24rem;
+  align-items: end;
+
+}
+
+#mem-title {
+  font-size: 5rem;
+  width:80rem;
+  margin:0;
+  
+  
+}
+
+#mem-left {
+  width:40rem;
+
+}
+
+#mem-left>#mem-left-desc {
+  font-size: 20px;
+
+}
+
+#faq {
+  font-size: 5rem;
+  margin-top:8rem;
+  
+  
+}
+
+#line {
+  background-color:black;
+  height:1px;
+  width:100%;
+  margin:-8px
+
+}
+
+#contact{
+  margin-top: 8rem;
+  display: flex;
+  gap:4rem;
+}
+#contact-left {
+  height:700px;
+  width:350px;
+  background-color: #9AAA9F;
+}
+
+#contact-right {
+  width:54rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+#contact-title {
+  font-size:4rem;
+  margin:0
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  gap:1.5rem;
+
+
+}
+.link {
+  font-family: rotterburg;
+  font-size:2.5rem;
+  padding: 2px 10px;
+  width: fit-content;
+  border: 1px solid;
+    border-radius: 48px;
+    padding: 2px 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+.link:hover {
+  border:1px solid;
+  border-radius: 48px;
+  padding:2px 10px;
+  width:fit-content;
+  cursor: pointer;
+
+}
+
+#work-items {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 1rem
 }

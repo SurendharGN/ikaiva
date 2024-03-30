@@ -2,8 +2,13 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import logo from '../public/logo.png'
-import homepage from "../public/homepage.png"
-
+import homepage from "../public/homepage.png";
+import limelight from "../public/limelight.png";
+import door from "../public/door.png";
+import map from "../public/map-307405.svg";
+import greenline from "../public/green-line.png"
+import membership from "../public/membership.png";
+import davinci from "../public/davinci.png";import impactArtists from "../public/impactartists.png";import amplify from "../public/amplify.png";
 function App() {
   
 
@@ -54,121 +59,164 @@ function App() {
       
     </div>
 
-    <div>
-      <p>
-        ikaiva creative studio helps brands establish an online presence through visual branding. 
-      </p>
-      <p id="about-desc">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence.</p>
-    </div>
- 
-    
-<button>SUBSCRIBE</button>
-
-    
-
-    
-    <h2>About</h2>
     <div id="about">
-      
-      {/* <img src="./src/assets/about-2.png" id="pic"></img> */}
-      
-
-      <div id="about-image">
-        
-      </div>
-
-      <div id="about-desc-right">
-        <div>
-          <p className="about-desc-1">+10</p>
-          <p id="about-project">PROJECTS</p>
-        </div>
-
-        <div>
-          <p className="about-desc-1">+1.8</p>
-          <p id="about-experience">YEARS OF EXPERIENCE</p>
-        </div>
+      <h2>
+        ikaiva creative studio helps brands establish an online presence through visual branding. 
+      </h2>
+      <div id="about-desc">
+        <p id="about-para">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by  establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence. Be the limelight of your industry through visual branding.</p>
+        <img src={limelight} height="300px"></img>
       </div>
     </div>
 
+    <div id="brands-through-art">
+      <h2 id="building-brands-through-art">
+        Buidling brands through art
+      </h2>
+      <img src={door} height="550px"></img>
+      <img id="map" src={map} height="550px" width="900px"></img>
+      
+
+      
+    </div>
+    <div id="crafting-web">
+      <div id="crafting">
+        <h2>Crafting web applications and brand designs since 2020</h2>
+      <p id="crafting-web-desc">Subscribe  to a plan & request as many designs as you’d like. Receive your design within  two  business days on average. We'll revise the designs until you're 100% satisfied.</p>
+      <div id="experience">
+        <div id="exp-1">
+          <p id="exp-1-head">10+</p>
+          <p id="exp-1-txt">Projects</p>
+        </div>
+
+        <div id="exp-2">
+          <p id="exp-2-head">2.2+</p>
+          <p id="exp-2-txt">Years of experience</p>
+        </div>
+      </div>
+      </div>
+      <img src={greenline} height='500px' id="greenline"></img>
+      
+        
+    </div>
+
     <div>
-      <h2 id="crafting-web-applications">Crafting web applications and brand designs</h2>
-      
+      <h2>Seamless design solutions, subscribed</h2>
+      <div>
 
-      
-      <div id="know-more">
+      </div>
+
+      <div id="reviews">
         <div>
+
+        </div>
+        <div id="features">
+          <div>
+          <p className="desc-title">Async meeting
+</p>
+          <p>Complete communication through Trello.  </p>
+        </div>
+        <div>
+          <p className="desc-title">Trello management</p>
+          <p>Manage your design board using Trello.</p>
+        </div>
+        <div>
+          <p className="desc-title">Invite your team</p>
+          <p>Invite your entire team, so anyone can submit requests and track their progress.</p>
+        </div>
+
+        </div>
         
       </div>
+    </div>
 
-      <div id="know-more-text">
-        <p>Subscribe  to a plan & request as many designs as you’d like. Receive your design within  two  business days on average. We'll revise the designs until you're 100% satisfied.</p>
-        <ul>
-          <h3>Design</h3>
-          <li>UI design</li>
-          <li>UX design</li>
-          <li>MVP edition</li>
-          <li>Typography</li>
-          <li>Logo design</li>
-        </ul>
-
+    <div id="work">
+      <h2>shaping singular vision: work</h2>
+      <div id="work-items">
+        <div className='work-item'>
+        <img height="275px" src={impactArtists}></img>
         
-      </div>
       </div>
       
+      <div className='work-item'>
+        <img height="275px" src={amplify}></img>
+      </div>
+      
+      <div className='work-item'>
+        <img height="300px" src={davinci}></img>
+      </div>
+      <div className='work-item'>
+        <img height="275px" src={impactArtists}></img>
+        
+      </div>
+      
+      <div className='work-item'>
+        <img height="275px" src={amplify}></img>
+      </div>
+      
+      <div className='work-item'>
+        <img height="300px" src={davinci}></img>
+      </div>
+      
+      <div></div>
 
+      </div>
       
     </div>
 
     <div>
       <h2>
-        Shaping singular vision
+        Membership benefits
       </h2>
 
-    <div id="features-container">
-      <div>
-        
-      </div>
-
-      <div id="features">
+      <div id="mem-main">
         <div>
-          <h3>Workflow</h3>
-          <ul id="workflow">
-            <li> Async meeting: complete communication through trello/slack.</li>
-            <li>Trello management: manage your design board using Trello.</li>
-            <li>Invite your team: invite your entire team, so anyone can submit requests and track their progress.</li>
-          </ul>
-
+          <img height="500px" src={membership}></img>
         </div>
+        <div id="membership-benefits-desc">
         <div>
-          <h3>Features</h3>
-          <ul id="feature">
-            <li>Design board: join the membership & unlock infinite designs.
-</li>
-            <li>Unique touch: each design crafted specifically for you, yours alone.</li>
-            <li>Pause and Play: take a breather when needed, pick up right where you left off.
-</li>
-            <li>No surprises, just smiles: fixed monthly rate, no hidden fees.</li>
-            <li>Speedy delivery, guaranteed: your designs arrive one at a time, few days on average.</li>
-            <li>Top-tier talent, every time: exceptional designs always on standby, just for you.</li>
-          </ul>
+          <div className="mem-child">
+            <p className="desc-title">Design board</p>
+            <p>Join the membership & unlock infinite designs.
+</p>
+          </div>
+          <div className="mem-child">
+            <p className="desc-title">Speedy delivery, guaranteed</p>
+            <p>Your designs arrive one at a time, 2 days on average.
+</p>
+          </div>
+          <div className="mem-child">
+            <p className="desc-title">Top-tier talent, every time</p>
+            <p>Exceptional designs always on standby, just for you.</p>
+          </div>
+        </div>
+        
+        <div>
+          <div className="mem-child">
+            <p className="desc-title">No surprises, just smiles</p>
+            <p>Fixed monthly rate, no hidden fees. Pay for what you deserve.
+</p>
+          </div>
+          <div className="mem-child">
+            <p className="desc-title">Pause your membership</p>
+            <p>Take a breather when needed, pick up right where you left off.
+</p>
+          </div>
+          <div className="mem-child">
+            <p className="desc-title">Unique touch</p>
+            <p>Each design crafted specifically for you, yours alone.</p>
+          </div>
+        </div>
+          
+          
         </div>
       </div>
-    </div>
       
-
-      
-    </div>
-
-    
-      <h2>Work</h2>
-      <div>
-        
     </div>
 
     <div>
       <div id="membership-header">
-        <h2>Join ikaiva-membership</h2>
-      
+        <h2 id="mem-title">Join ikaiva for a personal branding journey</h2>
       </div>
       
       <div>
@@ -176,21 +224,20 @@ function App() {
         <p>PER MONTH</p>
       </div>
 
-      <button>SUBSCRIBE</button>
+      
 
-      <div>
-        <p>Book a call for a free design quote</p>
-        <p>Learn more about how ikaiva works and how it can help you frame a brand identity.</p>
-        <button>SCHEDULE</button>
+      <div id="mem-details">
+        <div id="mem-left">
+          <button id="subscribe">Subscribe</button>
+          <p>Book a call for a free design quote</p>
+        <p id="mem-left-desc">Learn more about how ikaiva works and how it can help you frame a brand identity.</p>
+        <button id="schedule">Schedule</button>
 
+        </div>
+        
         <div>
           <h3>What's included</h3>
           <ul>
-            
-
-
-
-
             <li>One request at a time</li>
             <li>Average 48 hour delivery</li>
             <li>Pause or cancel anytime</li>
@@ -201,8 +248,82 @@ function App() {
       </div>
     </div>
 
+    <div>
+      <h2 id="faq">FAQ at ikaiva</h2>
+      <div>
+        <div id="line"></div>
+        <p>Why wouldn't I just hire a full-time designer?
+
+
+
+
+
+
+</p>
+<div id="line"></div>
+      </div>
+      <div>
+        <p>Is there a limit to how many requests I can have?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>Why wouldn't I just hire a full-time designer?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>Is there a limit to how many requests I can have?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>How fast will I receive my designs?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>Is there a limit to how many requests I can have?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>Why wouldn't I just hire a full-time designer?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p>How fast will I receive my designs?</p>
+        <div id="line"></div>
+      </div>
+      <div>
+        <p></p>
+      </div>
+      <div>
+        <p></p>
+      </div>
+    </div>
+
     
       
+      <div id="contact">
+        <div id="contact-left">
+        </div>
+        <div id="contact-right">
+          <div>
+            <h2 id="contact-title">Contact</h2>
+          <p>Whether you have questions about our services, want to discuss a potential project, or simply want to say hello, we're here to help.
+
+</p>
+<p>Schedule a consultation with one of our design experts. We'll discuss your goals, answer any questions you may have, and provide personalized recommendations tailored to your needs.</p>
+          </div>
+          <div>
+            <ul id="links">
+            <li className="link">ikaiva.co@gmail.com</li>
+            <li className="link">linkedin</li>
+            <li className="link">instagram</li>
+          </ul>
+
+          </div>
+          
+
+          
+        </div>
+      </div>
     </main>
   )
 }
