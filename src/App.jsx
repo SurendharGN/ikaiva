@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import logo from '../public/logo.png'
+import logo from '../public/logo.png';
+import talenthub from "../public/talenthub.png";
 import homepage from "../public/homepage.png";
-import limelight from "../public/limelight.png";
+import aura from "../public/aura.png"
+import iota from "../public/iota.png";
 import door from "../public/door.png";
 import map from "../public/map-307405.svg";
 import greenline from "../public/green-line.png"
 import membership from "../public/membership.png";
 import davinci from "../public/davinci.png";import impactArtists from "../public/impactartists.png";import amplify from "../public/amplify.png";
+import figuredisplay from "../public/figureDisplay.png";
 function App() {
   
 
@@ -59,20 +62,24 @@ function App() {
       
     </div>
 
-    <div id="about">
+    {/* <div id="about">
       <h2>
         ikaiva creative studio helps brands establish an online presence through visual branding. 
-      </h2>
+      </h2> 
       <div id="about-desc">
-        <p id="about-para">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by  establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence. Be the limelight of your industry through visual branding.</p>
+        
         <img src={limelight} height="300px"></img>
       </div>
-    </div>
+    </div> */}
 
     <div id="brands-through-art">
-      <h2 id="building-brands-through-art">
+      <div id="art-text">
+        <h2 id="building-brands-through-art">
         Buidling brands through art
       </h2>
+      <p id="about-para">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by  establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence. Be the limelight of your industry through visual branding.</p>
+      </div>
+      
       <img src={door} height="550px"></img>
       <img id="map" src={map} height="550px" width="900px"></img>
       
@@ -143,19 +150,19 @@ function App() {
       </div>
       
       <div className='work-item'>
-        <img height="300px" src={davinci}></img>
+        <img height="250px" src={talenthub}></img>
       </div>
       <div className='work-item'>
-        <img height="275px" src={impactArtists}></img>
+        <img height="250px" src={davinci}></img>
         
       </div>
       
       <div className='work-item'>
-        <img height="275px" src={amplify}></img>
+        <img height="275px" src={figuredisplay}></img>
       </div>
       
       <div className='work-item'>
-        <img height="300px" src={davinci}></img>
+        <img height="250px" src={aura}></img>
       </div>
       
       <div></div>
@@ -221,7 +228,7 @@ function App() {
       
       <div>
         <p id="price">$495</p>
-        <p>PER MONTH</p>
+        <p>Investment per month</p>
       </div>
 
       

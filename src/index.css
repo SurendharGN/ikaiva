@@ -20,7 +20,7 @@
   src: url('../public//fonts/sf-med.ttf');
 }
 main{
-  background-color: "f7f7f7";
+
   margin-left: 56px;
   margin-right: 56px;
 }
@@ -175,12 +175,14 @@ span {
 #navbar {
   display: flex;
   gap:64px;
+  
   position:sticky;
   top:0;
 }
 
 #navbar-items {
   display:flex;
+  background-color: white;
   gap:60px;
   justify-content: center;
   width:78rem;
@@ -226,7 +228,7 @@ span {
 #about-para {
   width:56rem;
   
-  transform: translate(8rem, 4rem);
+  
 }
 
 #about {
@@ -235,17 +237,20 @@ span {
 }
 
 #map {
-  opacity: 7%;
+  opacity: 5%;
 }
-
+#art-text {
+  transform:translate(22rem, 28rem);
+  width:fit-content;
+}
 #building-brands-through-art {
   width:48rem;
   font-size: 5rem;
-  transform: translate(22rem, 18rem);
+  margin:0;
 }
 
 #brands-through-art {
-  margin-top:-16rem
+  margin-top:-28rem
 }
 
 #crafting {
