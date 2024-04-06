@@ -447,7 +447,7 @@ span {
   gap: 1rem
 }
 
-@media  (max-width: 400px) {
+@media screen and (max-width: 420px) {
   main {
     margin-left:1rem;
     width:100%;
