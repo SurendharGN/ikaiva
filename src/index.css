@@ -455,7 +455,7 @@ span {
   main {
     /* display:flex;
     flex-direction: column; */
-    width:100vw;
+    width:365px;
     /* justify-content: center; */
     margin: 1rem;
     
@@ -532,7 +532,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width:100vw;
+    width:380px;
     transform: translateY(-3rem);
   }
 
