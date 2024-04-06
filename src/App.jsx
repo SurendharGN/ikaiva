@@ -12,6 +12,8 @@ import greenline from "../public/green-line.png"
 import membership from "../public/membership.png";
 import davinci from "../public/davinci.png";import impactArtists from "../public/impactartists.png";import amplify from "../public/amplify.png";
 import figuredisplay from "../public/figureDisplay.png";
+import arrow from "../public/arrow.png";
+import nav from "../public/nav.png"
 function App() {
   
 
@@ -19,7 +21,14 @@ function App() {
     <main>
     <div id="navbar">
       <navbar>
+        <div>
+          <img id="nav" src={nav}></img>
+          <div id="line"></div>
+
+        </div>
+        
         <ul id="navbar-items">
+          
           <li>Work</li>
           <li>Services</li>
           <li>Pricing</li>
@@ -47,7 +56,13 @@ function App() {
 
       <div id="homepage-description">
         <p>A productized service for fast-paced brands to launch a digital identity through web services.</p>
-        <button>Subscribe</button>
+
+        <div id="home-footer">
+          <button>Subscribe</button>
+          <img id="arrow" src={arrow}></img>
+
+        </div>
+        
       </div>
       
       </div>
