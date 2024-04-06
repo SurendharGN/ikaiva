@@ -58,7 +58,7 @@ function App() {
         <p>A productized service for fast-paced brands to launch a digital identity through web services.</p>
 
         <div id="home-footer">
-          <button>Subscribe</button>
+          <button id="subsribe">Subscribe</button>
           <img id="arrow" src={arrow}></img>
 
         </div>

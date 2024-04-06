@@ -87,8 +87,8 @@ button {
   padding: 8px;
   display:flex;
   align-items: center;
-  height:2.5rem;
-  width:10rem;
+  height:fit-content;
+  width:fit-content;
   font-size: 24px;
   font-family: sans;
 }
@@ -466,7 +466,7 @@ span {
   }
 
   #nav {
-    scale:0.7
+    scale:0.6
   }
 
   #line {
@@ -492,6 +492,10 @@ span {
   #title {
     font-size: 5rem;
     margin-top:3rem;
+  }
+
+  #subsribe {
+    transform: translateY(-1rem);
   }
 
 #homepage-image {
