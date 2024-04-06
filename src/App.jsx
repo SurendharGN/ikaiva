@@ -115,7 +115,11 @@ function App() {
         </div>
       </div>
       </div>
-      <img src={greenline} height='500px' id="greenline"></img>
+      <div id="greenline-parent">
+        <img src={greenline} height='500px' id="greenline"></img>
+
+      </div>
+      
       
         
     </div>
