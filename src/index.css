@@ -522,8 +522,9 @@ span {
   #home-footer {
     display: flex;
     justify-content: space-between;
-    align-items: end;
-    width:340px
+    align-items: flex-end;
+    width:100%;
+    transform: translateY(-3rem);
   }
 
   #arrow {
