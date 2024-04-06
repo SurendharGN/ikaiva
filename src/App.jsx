@@ -24,11 +24,9 @@ function App() {
         <div>
           <img id="nav" src={nav}></img>
           <div id="line"></div>
-
         </div>
         
         <ul id="navbar-items">
-          
           <li>Work</li>
           <li>Services</li>
           <li>Pricing</li>
@@ -95,7 +93,7 @@ function App() {
       <p id="about-para">Ikaiva   is a creative studio that lays a multi-dimensional foundation for businesses by  establishing an  online presence. We specialize in crafting web applications and brand designs for online businesses. Ikaiva  is obligated to transform the brand identity of your business by etching a step-stone into the  world of online presence. Be the limelight of your industry through visual branding.</p>
       </div>
       
-      <img src={door} height="550px"></img>
+      <img id="door" src={door} height="550px"></img>
       <img id="map" src={map} height="550px" width="900px"></img>
       
 

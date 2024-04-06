@@ -19,6 +19,10 @@
   font-family: sf;
   src: url('../public//fonts/sf-med.ttf');
 }
+
+:root {
+  background-color: #f7f7f7;
+}
 main{
 
   margin-left: 56px;
@@ -447,13 +451,17 @@ span {
   gap: 1rem
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
   main {
-    margin-left:1rem;
-    width:100%;
-    margin-right:1rem;
-
+    /* display:flex;
+    flex-direction: column; */
+    width:100vw;
+    /* justify-content: center; */
+    margin: 1rem;
+    
   }
+
+  /* first page */
 
   #navbar {
     width:100%;
@@ -501,11 +509,10 @@ span {
 #homepage-image {
   padding-left: 0rem;
   transform: translateY(0rem);
-  width:350px;
+  width:100%;
   z-index: -1;
   height:250px;
   margin-top:16px;
-
 }
 
 #homepage-description {
@@ -519,15 +526,13 @@ span {
   margin-bottom: 12rem;
   align-items: flex-start;
   margin-right:2rem;
-
-
 }
 
   #home-footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    width:100%;
+    width:100vw;
     transform: translateY(-3rem);
   }
 
@@ -547,4 +552,46 @@ span {
   #navbar-items {
     display: none
   }
+
+  #brands-through-art {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* second page */
+    #art-text {
+      transform: translate(0rem,0rem);
+      width: fit-content;
+    }
+  
+    
+  
+    #brands-through-art {
+      margin-top: -48rem
+    }
+
+    #about-para {
+      transform:translate(2rem,44rem);
+      width:20rem;
+    }
+
+    #door {
+      opacity:0.2;
+      scale:0.7;
+    }
+
+    #map{
+      width:100vw;
+      transform: translateY(-10rem);
+      
+    }
+
+    #building-brands-through-art {
+      transform: translate(2rem,40rem);
+      z-index:1;
+      font-size: 48px;
+      width:24rem
+    }
+
+    /* third page */
 }
