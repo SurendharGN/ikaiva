@@ -158,28 +158,28 @@ function App() {
       <h2>shaping singular vision: work</h2>
       <div id="work-items">
         <div className='work-item'>
-        <img height="275px" src={impactArtists}></img>
+        <img id="impact" height="275px" src={impactArtists}></img>
         
       </div>
       
       <div className='work-item'>
-        <img height="275px" src={amplify}></img>
+        <img id= "amplify" height="275px" src={amplify}></img>
       </div>
       
       <div className='work-item'>
-        <img height="250px" src={talenthub}></img>
+        <img id="talenthub" height="250px" src={talenthub}></img>
       </div>
       <div className='work-item'>
-        <img height="250px" src={davinci}></img>
+        <img id="davinci" height="250px" src={davinci}></img>
         
       </div>
       
       <div className='work-item'>
-        <img height="275px" src={figuredisplay}></img>
+        <img id="figuredisplay" height="275px" src={figuredisplay}></img>
       </div>
       
       <div className='work-item'>
-        <img height="250px" src={aura}></img>
+        <img id="aura" height="250px" src={aura}></img>
       </div>
       
       <div></div>
@@ -195,7 +195,7 @@ function App() {
 
       <div id="mem-main">
         <div>
-          <img height="500px" src={membership}></img>
+          <img id="mem-img" height="500px" src={membership}></img>
         </div>
         <div id="membership-benefits-desc">
         <div>
@@ -328,7 +328,7 @@ function App() {
         <div id="contact-left">
         </div>
         <div id="contact-right">
-          <div>
+          <div >
             <h2 id="contact-title">Contact</h2>
           <p>Whether you have questions about our services, want to discuss a potential project, or simply want to say hello, we're here to help.
 

@@ -580,10 +580,11 @@ span {
     #door {
       opacity:0.2;
       scale:0.7;
+      transform: translateX(-4rem);
     }
 
     #map{
-      width:100vw;
+      width:360px;
       transform: translateY(-10rem);
       
     }
@@ -637,6 +638,111 @@ span {
           width:150px;
           height:275px
         }
+
+        /* fourth page */
+
+        #features{
+          display:flex;
+          flex-direction:column;
+
+        }
+
+        /* fifth page */
+
+        #work {
+          margin-top:-4rem;
+        }
+
+        #work-items {
+          display:flex;
+          flex-direction: column;
+          gap:1rem;
+          flex-wrap: nowrap;
+          
+          
+        }
         
+        #impact {
+          width:23rem;
+          height:15rem;
+        }
+        
+        #impact {
+          width:23rem;
+          height:15rem;
+        }
+        
+        #amplify {
+          width:23rem;
+          height:13rem
+        }
+        #talenthub {
+          width:23rem;
+          height:13rem;
+          
+
+        }
+        #davinci{
+          width:23rem;
+          height:15rem
+        }
+
+        #figuredisplay{
+          width:23rem;
+          height:13rem;
+        }
+        #aura {
+          width:23rem;
+          height:13rem
+        }
+
+        /* sixth page */
+
+        #membership-benefits-desc {
+          display:flex;
+          flex-direction: column;
+          gap:0rem;
+        }
+
+        #mem-img {
+          display:none;
+
+        }
+
+        /* seventh  page */
+
+        #mem-title {
+          font-size:3rem;
+        }
+
+        #mem-details {
+          display:flex;
+          flex-direction:column;
+
+            gap: 0rem;
+            align-items: start;
+
+        }
+        #mem-left-desc {
+          width:340px;
+
+        }
+
+        /* contact page */
+        #contact {
+                  margin-top: 2rem;
+                  display: flex;
+                  
+                }
+        #contact-left {
+          display:none;
+        }
+        #contact-right {
+          width:340px
+        }
+
+        .link {
+          font-size:2rem;
+        }
         
 }
