@@ -455,9 +455,10 @@ span {
   main {
     /* display:flex;
     flex-direction: column; */
-    width:365px;
+    width:100%;
     /* justify-content: center; */
     margin: 1rem;
+    overflow:hidden;
 
     
   }
@@ -513,7 +514,7 @@ span {
 #homepage-image {
   padding-left: 0rem;
   transform: translateY(0rem);
-  width:100%;
+  width:23rem;
   z-index: -1;
   height:250px;
   margin-top:16px;
