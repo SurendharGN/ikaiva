@@ -455,9 +455,9 @@ span {
   main {
     /* display:flex;
     flex-direction: column; */
-    width:100%;
+    width:90%;
     /* justify-content: center; */
-    margin: 1rem;
+    margin:auto;
     overflow:hidden;
 
     
@@ -726,6 +726,13 @@ span {
 
         }
 
+        #membership-benefits-desc {
+
+          
+        }
+        .mem-child {
+          width:95%
+        }
         /* seventh  page */
 
         #mem-title {
@@ -735,9 +742,8 @@ span {
         #mem-details {
           display:flex;
           flex-direction:column;
-
-            gap: 0rem;
-            align-items: start;
+          gap: 0rem;
+          align-items: start;
 
         }
         #mem-left-desc {
@@ -765,6 +771,30 @@ span {
 
         .link {
           font-size:2rem;
+        }
+
+        /* faq page */
+
+        #dropdown {
+          width:15px;
+          height:10px
+        }
+        #faq-q {
+          display:flex;
+          width:90%;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom:-2rem
+
+        }
+
+        /* #line {
+          width:80%
+        } */
+
+        .answer {
+          color:rgb(82, 82, 82);
+          width:90%;
         }
 
         

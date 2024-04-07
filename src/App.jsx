@@ -13,7 +13,8 @@ import membership from "../public/membership.png";
 import davinci from "../public/davinci.png";import impactArtists from "../public/impactartists.png";import amplify from "../public/amplify.png";
 import figuredisplay from "../public/figureDisplay.png";
 import arrow from "../public/arrow.png";
-import nav from "../public/nav.png"
+import nav from "../public/nav.png";
+import dropdown from "../public/dropdown.png";
 function App() {
   
 
@@ -275,50 +276,97 @@ function App() {
     <div>
       <h2 id="faq">FAQ at ikaiva</h2>
       <div>
-        <div id="line"></div>
-        <p>Why wouldn't I just hire a full-time designer?
+        <div id="faq-q">
+          <p>What are the services you provide?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
 
+        </div>
+        
+        <p className='answer'>We provide website design, logo and branding, social media posts, webflow sites, framer sites.</p>
+        {/* <div id="line"></div> */}
+      </div>
 
+      <div>
+        <div id="faq-q">
+          <p>How long will each request take?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
 
+        </div>
+        
+        <p className='answer'>An average request takes 24-48 hrs to get completed.</p>
+        {/* <div id="line"></div> */}
+      </div>
+      <div>
+        <div id="faq-q">
+          <p>What kind of social media content creation is included?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
 
+        </div>
+        
+        <p className='answer'>We do both the copywriting and the design of the posts.</p>
+        {/* <div id="line"></div> */}
+      </div>
+      <div>
+        <div id="faq-q">
+          <p>how many requests I can have per month?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
 
+        </div>
+        
+        <p className='answer'>We do both the copywriting and the design of the posts.</p>
+        {/* <div id="line"></div> */}
+      </div>
+      <div>
+        <div id="faq-q">
+          <p>How do I request designs?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
 
-</p>
-<div id="line"></div>
+        </div>
+        
+        <p className='answer'>As soon as you subscribe to Ikaiva, you get a Trello management board mailed to you, you'll have further details in the board!</p>
+        {/* <div id="line"></div> */}
       </div>
       <div>
-        <p>Is there a limit to how many requests I can have?</p>
-        <div id="line"></div>
+        <div id="faq-q">
+          <p>Can I pause my membership </p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
+
+        </div>
+        
+        <p className='answer'>Yes, you will only be billed for the days for which requests are active and ongoing, the membership renews every 30 days.</p>
+        {/* <div id="line"></div> */}
+      </div>
+      
+      <div>
+        <div id="faq-q">
+          <p>How does the pause feature work?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
+
+        </div>
+        
+        <p className='answer'>The membership renew every 30 days, so you can pause it whenever not in use, so the membership will only be renewed when you complete 30 days of requests</p>
+        {/* <div id="line"></div> */}
       </div>
       <div>
-        <p>Why wouldn't I just hire a full-time designer?</p>
-        <div id="line"></div>
+        <div id="faq-q">
+          <p>What if I don't like the design?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
+
+        </div>
+        
+        <p className='answer'>We offer unlimited revisions for every request! we will redesign until you're 100% satisfied </p>
+        {/* <div id="line"></div> */}
       </div>
+      
       <div>
-        <p>Is there a limit to how many requests I can have?</p>
-        <div id="line"></div>
-      </div>
-      <div>
-        <p>How fast will I receive my designs?</p>
-        <div id="line"></div>
-      </div>
-      <div>
-        <p>Is there a limit to how many requests I can have?</p>
-        <div id="line"></div>
-      </div>
-      <div>
-        <p>Why wouldn't I just hire a full-time designer?</p>
-        <div id="line"></div>
-      </div>
-      <div>
-        <p>How fast will I receive my designs?</p>
-        <div id="line"></div>
-      </div>
-      <div>
-        <p></p>
-      </div>
-      <div>
-        <p></p>
+        <div id="faq-q">
+          <p>Are there any refunds if I don't like the service?</p>
+          {/* <img id="dropdown" src={dropdown}></img> */}
+
+        </div>
+        
+        <p className='answer'>We do offer a complete refund if you don't like the service! </p>
+        {/* <div id="line"></div> */}
       </div>
     </div>
 
