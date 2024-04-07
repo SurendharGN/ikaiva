@@ -253,7 +253,7 @@ function App() {
       <div id="mem-details">
         <div id="mem-left">
           <button id="subscribe">Subscribe</button>
-          <p>Book a call for a free design quote</p>
+          <p id="book-a-call">Book a call for a free design quote</p>
         <p id="mem-left-desc">Learn more about how ikaiva works and how it can help you frame a brand identity.</p>
         <button id="schedule">Schedule</button>
 
