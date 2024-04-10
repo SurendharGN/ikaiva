@@ -391,6 +391,14 @@ function App() {
           </ul>
 
           </div>
+
+          <div>
+            <Link to="/privacy">Privacy policy</Link>
+            {/* <Link>Customer support</Link>
+            <Link>Terms & conditions</Link>
+            <Link>Policy policy</Link>
+            <Link>Cancellation & refund policy</Link> */}
+          </div>
           
 
           
