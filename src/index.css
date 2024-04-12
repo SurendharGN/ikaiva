@@ -177,20 +177,32 @@ span {
 
 
 #navbar {
-  display: flex;
-  gap:64px;
+  /*  */
   position:sticky;
   top:0;
+  display:flex;
+  align-items: flex-start;
+  /* background-color: #f7f7f7; */
 }
 
+navbar {
+  position: sticky;
+  top: 0;
+  /* border:1px solid; */
+  
+  background-color: #f7f7f7;
+}
 #navbar-items {
   display:flex;
-  background-color: white;
+  background-color: #f7f7f7;
   gap:60px;
   justify-content: center;
   width:78rem;
   border-bottom: 1px solid black;
   padding-bottom: 24px;
+  z-index: 9999;
+  
+  
 
 }
 
@@ -240,7 +252,7 @@ span {
 }
 
 #map {
-  opacity: 5%;
+  opacity: 0%;
 }
 #art-text {
   transform:translate(22rem, 28rem);
@@ -327,6 +339,37 @@ span {
 
 }
 
+#services {
+  display:flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom:4rem;
+  margin-left:1rem;
+
+}
+
+#service-header {
+  display: flex; 
+  justify-content:center; align-items:center;
+  gap:16px
+}
+#serv-title {
+  font-size:4rem;
+  color:#434B46
+}
+
+#serv-line {
+  background-color: #434B46; height:0.5px; width:16rem
+}
+#serv-desc {
+  font-family: rotterburg;
+  font-size:2.5rem;
+  
+}
+#service-imgs {
+  display:flex;
+  gap:16px;
+}
 #reviews {
   margin-bottom:8rem;
 
@@ -451,6 +494,17 @@ span {
   gap: 1rem
 }
 
+#nav {
+  display:none;
+
+}
+#line {
+  display:none
+}
+
+#arrow {
+  display:none
+}
 @media screen and (max-width: 440px) {
   main {
     /* display:flex;
@@ -473,6 +527,7 @@ span {
     justify-content: space-between;
     margin-top:16px;
     align-items: center;
+    background-color: #f7f7f7;
 
   }
 
@@ -655,6 +710,66 @@ span {
           /* border:1px solid; */
         }
 
+        /* third  page */
+
+                #services {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: start;
+                  margin-bottom: 4rem;
+                  margin-left: 0rem;
+        
+                }
+        
+                #service-header {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 16px;
+                  /* border:1px solid; */
+                  
+                  
+                }
+        
+                #serv-title {
+                  font-size: 2rem;
+                  color: #434B46
+                }
+        
+                #serv-line {
+                  background-color: #434B46;
+                  height: 0.5px;
+                  width: 16rem
+                }
+        
+                #serv-desc {
+                  font-family: rotterburg;
+                  font-size: 1.5rem;
+                  color: #434B46;
+                  width:20rem
+        
+                }
+        
+                #service-imgs {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 16px;
+                  
+                }
+
+                #service-img-1 {
+                  height:230px;
+                  width:350px;
+                  
+                }
+
+                
+
+                #service-img-2 {
+                  height: 230px;
+                  width: 350px;
+                  
+                }
         /* fourth page */
 
         #features{

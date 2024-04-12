@@ -5,7 +5,6 @@ import logo from '../public/logo.png';
 import talenthub from "../public/talenthub.png";
 import homepage from "../public/homepage.png";
 import aura from "../public/aura.png"
-import iota from "../public/iota.png";
 import door from "../public/door.png";
 import map from "../public/map-307405.svg";
 import greenline from "../public/green-line.png"
@@ -14,7 +13,9 @@ import davinci from "../public/davinci.png";import impactArtists from "../public
 import figuredisplay from "../public/figureDisplay.png";
 import arrow from "../public/arrow.png";
 import nav from "../public/nav.png";
-import dropdown from "../public/dropdown.png";
+import design from "../public/Rectangle 56.png";
+import dev from "../public/Rectangle 57.png";
+
 function App() {
   
 
@@ -123,6 +124,25 @@ function App() {
       
       
         
+    </div>
+
+    <div id="services">
+      <div id="service-header" >
+        <div id="serv-line"></div>
+        <h2 id="serv-title">Products offered</h2>
+      </div>
+
+      <div>
+        <p id="serv-desc">ikaiva offers a wide range of products under a one subscription, ranging from design to development.  </p>
+
+      <div  id="service-imgs">
+        <img height="400px" id="service-img-1" src={design}></img>
+        <img height="400px" id="service-img-2" src={dev}></img>
+      </div>
+
+      </div>
+      
+
     </div>
 
     <div>
