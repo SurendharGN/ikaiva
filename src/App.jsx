@@ -15,6 +15,7 @@ import arrow from "../public/arrow.png";
 import nav from "../public/nav.png";
 import design from "../public/Rectangle 56.png";
 import dev from "../public/Rectangle 57.png";
+import marcus from "../public/marcus.png"
 
 function App() {
   
@@ -62,16 +63,9 @@ function App() {
           <img id="arrow" src={arrow}></img>
 
         </div>
-        
       </div>
-      
       </div>
-      
-      
 
-      
-
-      
     </div>
 
       
@@ -152,9 +146,7 @@ function App() {
       </div>
 
       <div id="reviews">
-        <div>
-
-        </div>
+        
         <div id="features">
           <div>
           <p className="desc-title">Async meeting
@@ -170,6 +162,31 @@ function App() {
           <p>Invite your entire team, so anyone can submit requests and track their progress.</p>
         </div>
 
+        </div>
+
+        <div>
+          <h2>what our clients say about ikaiva</h2>
+
+          <div id="testimonial">
+            <div className="testimonial-card">
+              <div id="test-header">
+                <img src={marcus} className="test-pic"></img>
+                <div id="test-header-text">
+                  <p id="x">Marcus Steeve</p>
+                  <p id="y">Founder</p>
+                </div>
+                
+              </div>
+
+              <div>
+                <p id="test-para">"Ikaiva’s subscription service is brilliant. It aligns perfectly with our dynamic business needs.
+                The team's creativity and speed are amazing. They handle everything from redesigns to routine updates, allowing us to focus on growing our business."</p>
+              </div>
+            </div>
+            <div className="testimonial-card"></div>
+            <div className="testimonial-card"></div>
+            <div className="testimonial-card"></div>
+          </div>
         </div>
         
       </div>

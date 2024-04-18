@@ -505,6 +505,51 @@ navbar {
 #arrow {
   display:none
 }
+
+#testimonial {
+  display:flex;
+  gap:16px
+}
+.testimonial-card {
+  height:400px;
+  width:400px;
+  background-color:#e8f0ea;
+  /* e6ede8 e8f0ea*/
+  padding:16px;
+  
+}
+
+#test-para {
+  font-size:20px;
+  color:#39403c
+}
+
+.test-pic {
+  height:75px;
+  width:75px;
+}
+
+#test-header {
+  display:flex;
+  align-items: center;
+  gap:16px;
+
+}
+
+#test-header-text{
+  height:fit-content;
+  
+  
+}
+
+#x {
+  font-size: 28px;
+  margin-bottom:-20px
+}
+
+#y {
+  font-size:20px
+}
 @media screen and (max-width: 440px) {
   main {
     /* display:flex;
@@ -611,6 +656,7 @@ navbar {
 
   p {
     font-size: 20px;
+
     /* border: 1px solid; */
 
   }
