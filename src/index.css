@@ -25,10 +25,9 @@
 }
 main{
 
-    width:92%;
-    /* justify-content: center; */
-    margin: auto;
-    overflow: hidden;
+    margin-left:3rem;
+    margin-right:3rem;
+
     
 }
 
