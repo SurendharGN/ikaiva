@@ -15,7 +15,11 @@ import arrow from "../public/arrow.png";
 import nav from "../public/nav.png";
 import design from "../public/Rectangle 56.png";
 import dev from "../public/Rectangle 57.png";
-import marcus from "../public/marcus.png"
+import marcus from "../public/marcus.png";
+import allen from "../public/allen.png";
+import juan from "../public/juan.png";
+import john from "../public/john.png";
+
 
 function App() {
   
@@ -183,9 +187,63 @@ function App() {
                 The team's creativity and speed are amazing. They handle everything from redesigns to routine updates, allowing us to focus on growing our business."</p>
               </div>
             </div>
-            <div className="testimonial-card"></div>
-            <div className="testimonial-card"></div>
-            <div className="testimonial-card"></div>
+            
+            {/* ******** */}
+
+            <div className="testimonial-card">
+              <div id="test-header">
+                <img src={allen} className="test-pic"></img>
+                <div id="test-header-text">
+                  <p id="x">Allen Kent
+
+        </p>
+                  <p id="y">Product  Designer</p>
+                </div>
+                
+              </div>
+
+              <div>
+                <p id="test-para">"Working with ikaiva has been an absolute game-changer for my business. Their web design subscription service not only saved me time but also delivered stunning results beyond my expectations."</p>
+              </div>
+            </div>
+
+            {/* ********** */}
+
+            <div className="testimonial-card">
+              <div id="test-header">
+                <img src={juan} className="test-pic"></img>
+                <div id="test-header-text">
+                  <p id="x">Juan Martinez
+
+        </p>
+                  <p id="y">UI Developer</p>
+                </div>
+                
+              </div>
+
+              <div>
+                <p id="test-para">"Partnering with Ikaiva has been one of the best decisions we've made. Their team effortlessly keeps our website looking professional and up-to-date, which is crucial for our fundraising efforts."</p>
+              </div>
+            </div>
+
+            {/* ********** */}
+
+            <div className="testimonial-card">
+              <div id="test-header">
+                <img src={john} className="test-pic"></img>
+                <div id="test-header-text">
+                  <p id="x">John Jose
+
+        </p>
+                  <p id="y">SMMA Agency</p>
+                </div>
+                
+              </div>
+
+              <div>
+                <p id="test-para">"Ikaiva has been a major player in bringing massive revenue growth for my agency through the website development and social media posts!"</p>
+              </div>
+            </div>
           </div>
         </div>
         
@@ -320,6 +378,7 @@ function App() {
         </div>
         
         <p className='answer'>We provide website design, logo and branding, social media posts, webflow sites, framer sites.</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
 
@@ -331,6 +390,7 @@ function App() {
         </div>
         
         <p className='answer'>An average request takes 24-48 hrs to get completed.</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
       <div>
@@ -341,6 +401,7 @@ function App() {
         </div>
         
         <p className='answer'>We do both the copywriting and the design of the posts.</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
       <div>
@@ -350,7 +411,8 @@ function App() {
 
         </div>
         
-        <p className='answer'>We do both the copywriting and the design of the posts.</p>
+        <p className='answer'>You get unlimited requets per subscription, but only one request will be executed at a time.</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
       <div>
@@ -361,6 +423,7 @@ function App() {
         </div>
         
         <p className='answer'>As soon as you subscribe to Ikaiva, you get a Trello management board mailed to you, you'll have further details in the board!</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
       <div>
@@ -371,21 +434,26 @@ function App() {
         </div>
         
         <p className='answer'>Yes, you will only be billed for the days for which requests are active and ongoing, the membership renews every 30 days.</p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
       
       <div>
+        
         <div id="faq-q">
           <p>How does the pause feature work?</p>
           {/* <img id="dropdown" src={dropdown}></img> */}
 
         </div>
         
-        <p className='answer'>The membership renew every 30 days, so you can pause it whenever not in use, so the membership will only be renewed when you complete 30 days of requests</p>
+        <p className='answer'>The membership renews every 30 days, so you can pause it whenever not in use, so the membership will only be renewed when you complete 30 days of requests</p>
+        
         {/* <div id="line"></div> */}
+        <div className="line"></div>
       </div>
       <div>
         <div id="faq-q">
+          
           <p>What if I don't like the design?</p>
           {/* <img id="dropdown" src={dropdown}></img> */}
 
@@ -393,6 +461,7 @@ function App() {
         
         <p className='answer'>We offer unlimited revisions for every request! we will redesign until you're 100% satisfied </p>
         {/* <div id="line"></div> */}
+        <div className="line"></div>
       </div>
       
       <div>
@@ -403,6 +472,7 @@ function App() {
         </div>
         
         <p className='answer'>We do offer a complete refund if you don't like the service! </p>
+        <div className="line"></div>
         {/* <div id="line"></div> */}
       </div>
     </div>

@@ -25,8 +25,11 @@
 }
 main{
 
-  margin-left: 56px;
-  margin-right: 56px;
+    width:92%;
+    /* justify-content: center; */
+    margin: auto;
+    overflow: hidden;
+    
 }
 
 #features {
@@ -225,7 +228,7 @@ navbar {
   display:flex;
   align-items: center;
   width:42rem;
-  margin-left:44rem;
+  margin-left:auto;
   transform: translateY(-9rem)
 }
 
@@ -549,6 +552,18 @@ navbar {
 
 #y {
   font-size:20px
+}
+
+.line  {
+  height:1px;
+  width:100%;
+  background-color:black;
+}
+
+.answer {
+  color:#39403c;
+  margin-top:-10px;
+  font-size:22px
 }
 @media screen and (max-width: 440px) {
   main {
