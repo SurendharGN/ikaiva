@@ -255,7 +255,7 @@ navbar {
 }
 
 #map {
-  opacity: 0%;
+  opacity: 5%;
 }
 #art-text {
   transform:translate(22rem, 28rem);
